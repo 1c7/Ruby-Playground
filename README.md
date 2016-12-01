@@ -1,5 +1,10 @@
 # All kind of Ruby code snippet
 
+zip  
+each_with_index  
+each_slice  
+each_cons  
+
 
 ## About this repo
 I learn Ruby from all kind of source: video tutorial, book, article, blog.. and so on..
@@ -18,10 +23,10 @@ Since this is not a tutorial. It may not really useful to you.
 ## 6.
 ## 7.
 Variables:
-Local
-Instance
-Class
-Global
+  Local    x
+  Instance @x
+  Class    @@x
+  Global   $x
 
 
 Instance variables, which serve the purpose of storing information for individual objects, always start with a single at sign (@) and consist thereafter of the same character set as local variables—for example, @age and @last_name.
@@ -54,5 +59,8 @@ Ruby facilitates this process with the 'require' and 'load' methods. We’ll sta
 
 
 
-# Book I have read
-<Effective Ruby: 48 Specific Ways to Write Better Ruby>
+# Book
+* book <Effective Ruby: 48 Specific Ways to Write Better Ruby>
+* video <EFFECTIVE RUBY> https://www.safaribooksonline.com/library/view/effective-ruby/9780134175416/part32.html
+*
+*
