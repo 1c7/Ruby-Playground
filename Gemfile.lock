@@ -1,0 +1,31 @@
+GEM
+  specs:
+    domain_name (0.5.20160615)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    json (1.8.3)
+    mime-types (2.99.2)
+    netrc (0.11.0)
+    qiniu (6.8.1)
+      json (~> 1.8)
+      mime-types (~> 2.4, >= 2.4.0)
+      rest-client (~> 2.0, >= 2.0.0)
+      ruby-hmac (~> 0.4)
+    rest-client (2.0.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    ruby-hmac (0.4.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  qiniu (>= 6.8.0)
+
+BUNDLED WITH
+   1.13.6
